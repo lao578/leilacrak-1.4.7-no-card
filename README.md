@@ -1,25 +1,8 @@
-# Leilacrak 1.4.7 无卡密 portable
+# Leilacrak 1.5.0 无卡密 portable
 
-这是 Leilacrak 1.4.7 的 Windows portable 无卡密版本。
+Windows portable no-card build. Download the release asset and run Leilacrak.exe after extracting the complete directory.
 
-## 下载
-
-请打开仓库的 Releases 页面，下载：
-
-`Leilacrak-1.4.7-no-card-portable.zip`
-
-## 使用
-
-1. 解压 ZIP。
-2. 保留完整目录结构。
-3. 运行 `Leilacrak.exe`。
-4. 详细说明见 [`使用教程.md`](./使用教程.md)。
-
-## 特性
-
-- 不需要卡密。
-- 不绑定设备。
-- 不访问卡密授权服务器。
-- 默认模型中转地址：`https://lav8.com/v1`。
-
-模型 API 和中转功能仍会按使用情况联网。
+- No card login and no device binding.
+- Default proxy endpoint: https://lav8.com/v1.
+- Do not commit API keys, credentials, tokens, or seed files.
+- This release is based on the supplied Leilacrak 1.5.0 package; see the release notes for verification details.
